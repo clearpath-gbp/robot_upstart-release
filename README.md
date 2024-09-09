@@ -1,3 +1,26 @@
+## robot_upstart (jazzy) - 1.0.4-1
+
+The packages in the `robot_upstart` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release -t jazzy -r jazzy robot_upstart` on `Mon, 09 Sep 2024 20:56:26 -0000`
+
+The `robot_upstart` package was released.
+
+Version of package(s) in repository `robot_upstart`:
+
+- upstream repository: https://github.com/clearpathrobotics/robot_upstart.git
+- release repository: https://github.com/clearpath-gbp/robot_upstart-release.git
+- rosdistro version: `1.0.3-1`
+- old version: `1.0.3-1`
+- new version: `1.0.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## robot_upstart (jazzy) - 1.0.3-1
 
 The packages in the `robot_upstart` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release -t jazzy -r jazzy robot_upstart` on `Wed, 04 Sep 2024 19:34:01 -0000`
