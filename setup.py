@@ -6,7 +6,7 @@ PACKAGE_NAME = 'robot_upstart'
 
 setup(
     name=PACKAGE_NAME,
-    version='1.0.3',
+    version='1.0.4',
     packages=[PACKAGE_NAME],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -15,6 +15,8 @@ setup(
         (os.path.join('lib', PACKAGE_NAME, 'scripts'), glob('scripts/*')),
         (os.path.join('share', PACKAGE_NAME, 'scripts'), glob('scripts/*')),
         (os.path.join('share', PACKAGE_NAME, 'templates'), glob('templates/*')),
+        (os.path.join('share', PACKAGE_NAME, 'test'), glob('test/*.py')),
+        (os.path.join('share', PACKAGE_NAME, 'test/launch'), glob('test/launch/*.launch')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
